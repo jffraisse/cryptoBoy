@@ -27,6 +27,7 @@ module.exports = {
   // add your custom rules here
   'rules': {
     "linebreak-style": 0,
+    'comma-dangle': [2, 'only-multiline'],
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
       'js': 'never',
