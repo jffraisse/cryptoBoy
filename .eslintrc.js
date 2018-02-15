@@ -26,8 +26,16 @@ module.exports = {
   },
   // add your custom rules here
   'rules': {
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "linebreak-style": 0,
+    "prefer-template": 0,
+    "radix": 0,
+    "no-param-reassign": 0,
+    "array-callback-return": 0,
+    "no-plusplus": 0,
+    "func-names": ["error", "as-needed"],
     'comma-dangle': [2, 'only-multiline'],
+    "no-console": ["error", { allow: ["log"] }],
     'no-extra-parens': 0,
     'arrow-parens' : 0,
     'indent': 0,

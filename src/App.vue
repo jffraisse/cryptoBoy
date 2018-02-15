@@ -4,7 +4,7 @@
       <span>Vue.js PWA</span>
     </header>
     <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
+      <img class="logo" src="./assets/logo.png" alt="Vue.js PWA">
       <router-view></router-view>
     </main>
   </div>
@@ -31,6 +31,14 @@ body {
 main {
   text-align: center;
   margin-top: 40px;
+}
+
+main .logo {
+  position: absolute;
+  right: 0.5em;
+  top: 3.09em;
+  width: 100px;
+  height: 100px;
 }
 
 header {
